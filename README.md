@@ -2,7 +2,7 @@
 
 Computer Science student at TH Brandenburg, passionate about Artificial Intelligence, Robotics, and LLM-powered applications.
 
-Interested in AI, Robotics, Local LLMs, and Intelligent Automation.
+Interested in AI, Robotics, LLMs, and Intelligent Automation.
 
 ---
 
