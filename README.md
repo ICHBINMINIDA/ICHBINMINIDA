@@ -1,16 +1,92 @@
-## Hi there 👋
+# Hi, I'm Hamza El Madani 👋
 
-<!--
-**ICHBINMINIDA/ICHBINMINIDA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Computer Science student at TH Brandenburg, passionate about Artificial Intelligence, Robotics, and LLM-powered applications.
 
-Here are some ideas to get you started:
+Currently looking for a full-time position as:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- AI / LLM Engineer
+- Python Developer
+- Robotics Software Engineer
+- Automation Engineer
+
+---
+
+## About Me
+
+- Final-year Computer Science student
+- Building practical AI projects
+- Interested in Local LLMs
+- ROS2 Robotics Development
+- Python Backend Development
+- Workflow Automation
+
+---
+
+## Tech Stack
+
+### Languages
+
+- Python
+- C
+- C++
+- Java
+- SQL
+
+### AI
+
+- Ollama
+- Local LLMs
+- VOSK
+- OpenCV
+- SAM
+
+### Robotics
+
+- ROS2 Humble
+- TurtleBot3
+- Linux
+
+### Tools
+
+- Git
+- GitHub
+- Docker
+- VS Code
+
+---
+
+## Featured Project
+
+### AI-Powered Autonomous Robot Navigation
+
+Voice-controlled autonomous robot navigation using ROS2, Local LLMs and SAM.
+
+Features:
+
+- Wake word detection
+- Speech recognition
+- Local LLM reasoning
+- Object segmentation
+- Autonomous search
+- Object tracking
+- Robot navigation
+
+Repository:
+
+https://github.com/ICHBINMINIDA/AI-Powered-Autonomous-Robot-Navigation
+
+---
+
+## Connect with me
+
+LinkedIn
+
+https://www.linkedin.com/in/hamza-el-madani-263a09385/
+
+GitHub
+
+https://github.com/ICHBINMINIDA
+
+---
+
+Thanks for visiting my profile!
