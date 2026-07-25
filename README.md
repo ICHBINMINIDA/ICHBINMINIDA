@@ -2,12 +2,7 @@
 
 Computer Science student at TH Brandenburg, passionate about Artificial Intelligence, Robotics, and LLM-powered applications.
 
-Currently looking for a full-time position as:
-
-- AI / LLM Engineer
-- Python Developer
-- Robotics Software Engineer
-- Automation Engineer
+Interested in AI, Robotics, Local LLMs, and Intelligent Automation.
 
 ---
 
