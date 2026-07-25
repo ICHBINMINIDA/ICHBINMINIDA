@@ -10,7 +10,7 @@ Interested in AI, Robotics, LLMs, and Intelligent Automation.
 
 - Final-year Computer Science student
 - Building practical AI projects
-- Interested in Local LLMs
+- Interested in LLMs
 - ROS2 Robotics Development
 - Python Backend Development
 - Workflow Automation
