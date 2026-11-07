@@ -1,87 +1,61 @@
-# Hi, I'm Hamza El Madani 👋
+# Hamza El Madani
 
-Computer Science student at TH Brandenburg, passionate about Artificial Intelligence, Robotics, and LLM-powered applications.
+**Informatikstudent im letzten Semester an der TH Brandenburg** · Lokale LLMs, RAG und LLM-gesteuerte Robotik
 
-Interested in AI, Robotics, LLMs, and Intelligent Automation.
+Ich bringe Open-Source-Modelle lokal zum Laufen und baue darauf Anwendungen, die
+man messen kann: einen RAG-Chatbot mit Quellenangaben, einen Modell-Benchmark
+für den konkreten Anwendungsfall und ein ROS-2-Robotersystem, in dem ein lokales
+LLM per MCP Werkzeuge steuert. Mich interessiert, wie die Modelle unter der
+Haube funktionieren und wie man sie stabil betreibt.
 
----
-
-## About Me
-
-- Final-year Computer Science student
-- Building practical AI projects
-- Interested in LLMs
-- ROS2 Robotics Development
-- Python Backend Development
-- Workflow Automation
+*Final-year Computer Science student. I run open-source LLMs locally, put them
+behind clean APIs, and measure which model fits which job.*
 
 ---
 
-## Tech Stack
+## Projekte
 
-### Languages
+### [THB StudentAssist](https://github.com/ICHBINMINIDA/THB-StudentAssist): RAG-Chatbot, Docker, LiteLLM, Benchmark
 
-- Python
-- C
-- C++
-- Java
-- SQL
+Mehrsprachiger Chatbot (DE/EN/AR) für Studierende, vollständig lokal.
 
-### AI
+- **Hybrid Retrieval** (Vektor + BM25, Reciprocal Rank Fusion), Antworten mit nummerierten Quellen und einem festen „Weiß ich nicht“, statt zu halluzinieren
+- **Docker Compose** mit **LiteLLM** als OpenAI-kompatiblem Gateway vor **Ollama**, optional **vLLM** auf NVIDIA-GPU und **Open WebUI**
+- **Modell-Benchmark** auf der echten Aufgabe: Quellentreue, korrektes Ablehnen, Sprache, Time-to-first-Token, Tokens/s, VRAM. Ergebnis: gemma3:4b schlägt gemma3:27b bei einem Sechstel des Speichers, das größte Modell ist hier nicht das beste
+- FastAPI mit Streaming und Rate Limiting, Tests in CI
 
-- Ollama
-- Local LLMs
-- VOSK
-- OpenCV
-- SAM
+### [LLM + MCP Robot Navigation](https://github.com/ICHBINMINIDA/llm-mcp-robot-navigation): kontrolliertes Experiment, fünf Architekturen
 
-### Robotics
+Wie viel Kontrolle sollte ein LLM über einen Roboter bekommen? Fünf Architekturen,
+von zeitgesteuerten Bewegungsprimitiven bis zu Skills, die das LLM nur plant,
+alle über **MCP** angebunden und mit identischer Wahrnehmung, Kinematik und
+Sicherheitsschicht, sodass nur die Rolle des LLM variiert.
 
-- ROS2 Humble
-- TurtleBot3
-- Linux
+- Messung pro Lauf als JSONL: Erfolgsrate, Zeit bis zum Ziel, LLM-Aufrufe, Anteil der Wartezeit auf das Modell, JSON-Reparaturen
+- Drei unabhängige Not-Halt-Ebenen, davon ein verriegelnder Stop-Flag, den das LLM nicht aufheben kann
+- Tests ohne ROS in CI (Python 3.10)
 
-### Tools
+### [AI-Powered Autonomous Robot Navigation](https://github.com/ICHBINMINIDA/AI-Powered-Autonomous-Robot-Navigation): ROS 2, lokales LLM, Sprache, Vision
 
-- Git
-- GitHub
-- Docker
-- VS Code
+Sprachgesteuerter Roboter (TurtleBot3, ROS 2 Humble): Wake-Word und Spracherkennung
+offline mit VOSK, Zielextraktion mit einem lokalen LLM über Ollama,
+Objektsegmentierung mit SAM, reaktive Navigation. [Demo-Video im README](https://github.com/ICHBINMINIDA/AI-Powered-Autonomous-Robot-Navigation#-project-demonstration).
 
 ---
 
-## Featured Project
+## Technologien
 
-### AI-Powered Autonomous Robot Navigation
+| Bereich | |
+|---|---|
+| **LLM-Betrieb** | Ollama, LiteLLM, OpenAI-kompatible APIs, Modell-Benchmarking |
+| **LLM-Anwendungen** | RAG, LangChain, Chroma, Embeddings, MCP (Model Context Protocol), Prompting für strukturiertes JSON |
+| **Infrastruktur** | Linux, Docker, Docker Compose, Bash, GitHub Actions |
+| **Backend** | Python, FastAPI, REST/Streaming |
+| **Robotik und Vision** | ROS 2 Humble, OpenCV, SAM, VOSK |
+| **Sprachen** | Python, C, C++, Java, SQL |
 
-Voice-controlled autonomous robot navigation using ROS2, Local LLMs and SAM.
-
-Features:
-
-- Wake word detection
-- Speech recognition
-- Local LLM reasoning
-- Object segmentation
-- Autonomous search
-- Object tracking
-- Robot navigation
-
-Repository:
-
-https://github.com/ICHBINMINIDA/AI-Powered-Autonomous-Robot-Navigation
+**Arabisch** (Muttersprache) · **Deutsch** (C1, verhandlungssicher) · **Englisch** (Fachdokumentation)
 
 ---
 
-## Connect with me
-
-LinkedIn
-
-https://www.linkedin.com/in/hamza-el-madani-263a09385/
-
-GitHub
-
-https://github.com/ICHBINMINIDA
-
----
-
-Thanks for visiting my profile!
+[LinkedIn](https://www.linkedin.com/in/hamza-el-madani-263a09385/) · [GitHub](https://github.com/ICHBINMINIDA)
